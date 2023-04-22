@@ -1,6 +1,5 @@
-use school_db::Db;
+use school_db::Cli;
 
 fn main() {
-    let mut db = Db::new();
-    db.get_students_gpa(1);
+    Cli::run();
 }
